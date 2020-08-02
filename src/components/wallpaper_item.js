@@ -54,7 +54,7 @@ const WallpaperItem = ({ file }) => {
                   <br />
                   Posted on:{' '}
                   <a href={subReddit} target='_blank' rel='noopener noreferrer'>
-                    r/{file.data.subReddit}
+                    Reddit{file.data.subReddit}
                   </a>
                 </p>
               </div>
